@@ -187,9 +187,17 @@ body {
     transform: translate(0, 0);
     background-position:right;
   }
-  87% {
+  100% {
     transform: translate(0, 210px);
+  }
+}
+@keyframes change-3-1 {
+  55% {
+    transform: translate(0, 0);
     background-position:right;
+  }
+  95% {
+    transform: translate(100px, 210px);
   }
   100% {
     transform: translate(0, 210px);
