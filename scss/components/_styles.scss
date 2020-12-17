@@ -5,8 +5,8 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
-  color: $default;
-  background-color: $white;
+  color: #000;
+  background-color: #fff;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   overflow-x: hidden;
@@ -77,7 +77,6 @@ body {
   right: 0;
   margin: auto;
 }
-
 .dot-5 {
   background: linear-gradient(75deg, #A633D3 -1.01%, #FF006F 105.73%);
   animation: dot-5-move 4s ease infinite, index 6s ease infinite;
@@ -90,7 +89,6 @@ body {
   background-color: #D000FC;
   animation: dot-3-move 4s ease infinite, index 6s ease infinite;
 }
-
 .dot-2 {
   background-color: #E70092;
   animation: dot-2-move 4s ease infinite, index 6s -4s ease infinite;
@@ -102,46 +100,46 @@ body {
 }
 
 @keyframes dot-5-move {
-  20% {transform: scale(.45);opacity: 0;}
-  45% {transform: translate(-16px, 12px) scale(.45);opacity: 0;}
-  60% {transform: translate(-55px, 50px) scale(.45);opacity: 0;}
-  80% {transform: translate(-16px, 12px) scale(.45);opacity: 0;}
+  20% {transform: scale(.4);opacity: 0;}
+  45% {transform: translate(-16px, 12px) scale(.4);opacity: 0;}
+  60% {transform: translate(-55px, 50px) scale(.4);opacity: 0;}
+  80% {transform: translate(-16px, 12px) scale(.4);opacity: 0;}
   90% {transform: translate(-40px, -35px ) scale(.2);opacity: .1;}
   100% {transform: translate(-40px, -35px ) scale(.2); opacity: 1;}
 }
 @keyframes dot-4-move {
-  20% {transform: scale(.45);opacity: 0;}
-  45% {transform: translate(-16px, 12px) scale(.45);opacity: 0;}
-  60% {transform: translate(-55px, 50px) scale(.45);opacity: 0;}
+  20% {transform: scale(.4);opacity: 0;}
+  45% {transform: translate(-16px, 12px) scale(.4);opacity: 0;}
+  60% {transform: translate(-55px, 50px) scale(.4);opacity: 0;}
   80% {transform: translate(-55px, -50px ) scale(.3); opacity: 0;}
   90% {transform: translate(-20px, -10px ) scale(.3); opacity: .1;}
   100% {transform: translate(-25px, -15px ) scale(.3); opacity: 1;}
 }
 @keyframes dot-3-move {
-  0% {transform: translate(0, 0) scale(.45);opacity: 0;}
-  20% {transform: scale(.45);opacity: 1;}
-  45% {transform: translateY(-18px) scale(.45);opacity: 1;}
-  60% {transform: translate(-4px, -45px) scale(.45);opacity: 1;}
-  80% {transform: translate(28px, 12px) scale(.45);opacity: .4;}
-  100% {transform: translate(51px, 50px) scale(.45);opacity: 0;}
+  0% {transform: translate(0, 0) scale(.4);opacity: 0;}
+  20% {transform: scale(.4);opacity: 1;}
+  45% {transform: translateY(-18px) scale(.4);opacity: 1;}
+  60% {transform: translate(-4px, -45px) scale(.4);opacity: 1;}
+  80% {transform: translate(28px, 15px) scale(.4);opacity: .4;}
+  100% {transform: translate(51px, 50px) scale(.4);opacity: 0;}
 }
 
 @keyframes dot-2-move {
-  0% {transform: translate(0, 0) scale(.45);opacity: 0;}
-  20% {transform: scale(.45);opacity: 1;}
-  45% {transform: translate(-16px, 12px) scale(.45);opacity: 1;}
-  60% {transform: translate(-55px, 50px) scale(.45);opacity: 1;}
-  80% {transform: translate(-16px, 12px) scale(.45);opacity: .4;}
-  100% {transform: translate(28px, 12px) scale(.45);opacity: 0;}
+  0% {transform: translate(0, 0) scale(.4);opacity: 0;}
+  20% {transform: scale(.4);opacity: 1;}
+  45% {transform: translate(-16px, 15px) scale(.4);opacity: 1;}
+  60% {transform: translate(-55px, 50px) scale(.4);opacity: 1;}
+  80% {transform: translate(-16px, 15px) scale(.4);opacity: .4;}
+  100% {transform: translate(28px, 15px) scale(.4);opacity: 0;}
 }
 
 @keyframes dot-1-move {
-  0% {transform: translate(0, 0) scale(.45);opacity: 0;}
-  20% {transform: scale(.45);opacity: 1;}
-  45% {transform: translate(16px, 12px) scale(.45)}
-  60% {transform: translate(55px, 50px) scale(.45);opacity: 1;}
-  80% {transform: translate(16px, 12px) scale(.45);opacity: 1;}
-  100% {transform: translate(28px, 12px) scale(.45);opacity: 0;}
+  0% {transform: translate(0, 0) scale(.4);opacity: 0;}
+  20% {transform: scale(.4);opacity: 1;}
+  45% {transform: translate(16px, 12px) scale(.4)}
+  60% {transform: translate(55px, 50px) scale(.4);opacity: 1;}
+  80% {transform: translate(16px, 15px) scale(.4);opacity: 1;}
+  100% {transform: translate(28px, 15px) scale(.4);opacity: 0;}
 }
 
 @keyframes rotate-move {
@@ -185,7 +183,7 @@ body {
   animation: change-2 4s infinite linear;
 }
 @keyframes change-3 {
-  60% {
+  55% {
     transform: translate(0, 0);
     background-position:right;
   }
@@ -218,8 +216,6 @@ body {
     background-position:right;
   }
 }
-
-
 .wave{
   border-radius: 50%;
   border: 2px solid #BFE2FF;
