@@ -111,10 +111,10 @@ body {
     transform: translate(-16px, 12px) scale(0.4);
     opacity: 0; }
   90% {
-    transform: translate(-15px, -10px) scale(0.1);
+    transform: translate(-19px, -8px) scale(0.1);
     opacity: .1; }
   100% {
-    transform: translate(-15px, -15px) scale(0.1);
+    transform: translate(-19px, -8px) scale(0.1);
     opacity: 1; } }
 
 @keyframes dot-4-move {
@@ -131,10 +131,10 @@ body {
     transform: translate(-55px, -50px) scale(0.13);
     opacity: 0; }
   90% {
-    transform: translate(-10px, -7px) scale(0.13);
+    transform: translate(-11px, -2px) scale(0.13);
     opacity: .1; }
   100% {
-    transform: translate(-10px, -7px) scale(0.13);
+    transform: translate(-11px, -2px) scale(0.13);
     opacity: 1; } }
 
 @keyframes dot-3-move {
@@ -220,11 +220,17 @@ body {
 
 @keyframes ImageScale {
   0% {
-    transform: scale(0.5); }
-  55% {
-    transform: scale(1); }
+    transform: scale(0.5);
+    opacity: 0; }
+  10% {
+    transform: scale(0.5);
+    opacity: 0; }
+  80% {
+    transform: scale(1);
+    opacity: 1; }
   100% {
-    transform: scale(0.5); } }
+    transform: scale(0.5);
+    opacity: .001; } }
 
 @keyframes Imagefade {
   0% {

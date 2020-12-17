@@ -104,16 +104,16 @@ body {
   45% {transform: translate(-16px, 12px) scale(.4);opacity: 0;}
   60% {transform: translate(-55px, 50px) scale(.4);opacity: 0;}
   80% {transform: translate(-16px, 12px) scale(.4);opacity: 0;}
-  90% {transform: translate(-15px, -10px ) scale(.1);opacity: .1;}
-  100% {transform: translate(-15px, -15px ) scale(.1); opacity: 1;}
+  90% {transform: translate(-19px, -8px ) scale(.1);opacity: .1;}
+  100% {transform: translate(-19px, -8px ) scale(.1); opacity: 1;}
 }
 @keyframes dot-4-move {
   20% {transform: scale(.4);opacity: 0;}
   45% {transform: translate(-16px, 12px) scale(.4);opacity: 0;}
   60% {transform: translate(-55px, 50px) scale(.4);opacity: 0;}
   80% {transform: translate(-55px, -50px ) scale(.13); opacity: 0;}
-  90% {transform: translate(-10px, -7px ) scale(.13); opacity: .1;}
-  100% {transform: translate(-10px, -7px ) scale(.13); opacity: 1;}
+  90% {transform: translate(-11px, -2px ) scale(.13); opacity: .1;}
+  100% {transform: translate(-11px, -2px ) scale(.13); opacity: 1;}
 }
 @keyframes dot-3-move {
   0% {transform: translate(0, 0) scale(.4);opacity: 0;}
@@ -175,12 +175,19 @@ body {
 @keyframes ImageScale {
   0% {
     transform: scale(.5);
+    opacity: 0;
   }
-  55% {
+  10% {
+    transform: scale(.5);
+    opacity: 0;
+  }
+  80% {
     transform: scale(1);
+    opacity: 1;
   }
   100% {
     transform: scale(.5);
+    opacity: .001;
   }
 }
 @keyframes Imagefade {
