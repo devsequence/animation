@@ -136,7 +136,7 @@ body {
 @keyframes dot-1-move {
   0% {transform: translate(0, 0) scale(.4);opacity: 0;}
   20% {transform: scale(.4);opacity: 1;}
-  45% {transform: translate(16px, 12px) scale(.4)}
+  45% {transform: translate(16px, 15px) scale(.4)}
   60% {transform: translate(55px, 50px) scale(.4);opacity: 1;}
   80% {transform: translate(16px, 15px) scale(.4);opacity: 1;}
   100% {transform: translate(28px, 15px) scale(.4);opacity: 0;}
@@ -187,14 +187,21 @@ body {
     transform: translate(0, 0);
     background-position:right;
   }
-  100% {
+  87% {
     transform: translate(0, 210px);
     background-position:right;
+  }
+  100% {
+    transform: translate(0, 210px);
   }
 }
 @keyframes change-2 {
   60% {
     transform: translate(0, 0);
+    background-position:right;
+  }
+  70% {
+    transform: translate(50px, 0);
     background-position:right;
   }
   100% {
@@ -207,7 +214,7 @@ body {
     transform: translate(0, 0px);
     background-position:right;
   }
-  65% {
+  70% {
     transform: translate(0, -210px);
     background-position:right;
   }
