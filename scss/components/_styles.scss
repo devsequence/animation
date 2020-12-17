@@ -174,7 +174,7 @@ body {
   transform: translate(0, 0px);
   stroke: #fff;
   stroke-width: 4px;
-  animation: change-3 4s infinite linear;
+  animation: change-3-1 4s infinite linear;
 }
 .second-white-item{
   transform: translate(0, 0px);
@@ -196,24 +196,32 @@ body {
     transform: translate(0, 0);
     background-position:right;
   }
-  95% {
-    transform: translate(100px, 210px);
+  70% {
+    transform: translate(0px, 210px);
   }
   100% {
-    transform: translate(0, 210px);
+    transform: translate(0px, 210px);
   }
 }
 @keyframes change-2 {
   60% {
     transform: translate(0, 0);
-    background-position:right;
   }
-  70% {
-    transform: translate(50px, 0);
+  79% {
     background-position:right;
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+    transform: translate(350px, 0);
+  }
+  99% {
+    background-position:right;
+    opacity: 0;
   }
   100% {
-    transform: translate(250px, 0);
+    opacity: 1;
+    transform: translate(350px, 0);
     background-position:right;
   }
 }
@@ -270,3 +278,8 @@ body {
   }
 }
 
+.ska{
+  transform: translate(2400px,1099px) scale(.63);
+  stroke-dasharray: 248 250;
+  stroke-dashoffset: 209;
+}
