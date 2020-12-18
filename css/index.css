@@ -324,13 +324,13 @@ body {
     transform: translate(61px, 118px) scale(1.1); } }
 
 @keyframes line-change-2 {
-  80% {
-    opacity: 0; }
-  80% {
+  79% {
     opacity: 0; }
   81% {
-    opacity: .9; }
-  80% {
+    opacity: .81; }
+  85% {
+    opacity: .85; }
+  90% {
     opacity: .9; }
   100% {
     opacity: 1; } }
