@@ -359,7 +359,7 @@ body {
   40% {
     transform: translate(-16px,-16px) scale(1.1)
   }
-  80% {
+  60% {
     transform:translate(61px,118px) scale(1.1);
   }
   100% {
@@ -370,10 +370,13 @@ body {
   80% {
     opacity: 0;
   }
-  81% {
+  65% {
     opacity: 0;
   }
-  86% {
+  66% {
+    opacity: .9;
+  }
+  80% {
     opacity: .9;
   }
   100% {
@@ -384,7 +387,7 @@ body {
   40%{
     transform: translate(-3px, -15px) scale(1.1);
     }
-  80% {
+  60% {
     transform: translate(25px, -66px) scale(1.1);
   }
   100% {
