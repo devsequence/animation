@@ -33,22 +33,22 @@
   opacity: 1;
 }
 .animated .first-white-header{
-  animation: change-1 2s 1 linear forwards;
+  animation: change-1-1 1.5s 1 linear forwards;
 }
 .animated  .thirty-white-header {
-  animation: change-3 2s 1 linear forwards;
+  animation: change-3-1 1.5s 1 linear forwards;
 }
 .animated  .second-white-header{
-  animation: change-2 2s 1 linear forwards;
+  animation: change-2-1 1.5s 1 linear forwards;
 }
 .first-circle-header, .second-circle-header{
   opacity: 0;
 }
 .animated  .first-circle-header{
-  animation: dot-fade 3s 1 linear forwards;
+  animation: dot-fade 2s 1 linear forwards;
 }
 .animated .second-circle-header{
-  animation: dot-fade 3s 1 linear forwards;
+  animation: dot-fade 2s 1 linear forwards;
 }
 .animated .let-1{
   animation: fadeInText2 2s;
